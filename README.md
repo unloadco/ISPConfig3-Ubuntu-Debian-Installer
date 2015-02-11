@@ -16,7 +16,7 @@ Installation Instructions:
 1. Run this command:
 
 	```bash
-	cd /tmp; wget --no-check-certificate -O ISPConfig3.tgz https://github.com/dclardy64/ISPConfig-3-Debian-Installer/tarball/master; tar zxvf ISPConfig3.tgz; cd *Installer*; bash install.sh
+	cd /tmp; wget --no-check-certificate -O ISPConfig3.tgz https://github.com/unloadco/ISPConfig3-Debian-Installer/tarball/master; tar zxvf ISPConfig3.tgz; cd *Installer*; bash install.sh
 	```
 
 2. Answer the onscreen prompts. The script stops so that you can see the appropriate answers.
@@ -30,7 +30,7 @@ Extra Installation Instructions:
 2. Run this command:
 
 	```bash
-	cd /tmp; wget --no-check-certificate -O ISPConfig3.tgz https://github.com/dclardy64/ISPConfig-3-Debian-Installer/tarball/master; tar zxvf ISPConfig3.tgz; cd *Installer*; bash install.sh
+	cd /tmp; wget --no-check-certificate -O ISPConfig3.tgz https://github.com/unloadco/ISPConfig3-Debian-Installer/tarball/master; tar zxvf ISPConfig3.tgz; cd *Installer*; bash install.sh
 	```
 3. Answer the onscreen prompts.
 4. Enjoy the completed installation. 
@@ -40,3 +40,9 @@ TO DO
 -----
 
 See what other options I can add. Please feel free to submit an issue for any ideas that you have.
+
+
+Credits
+-------
+
+Special thanks to @dclardy64 for making this great script. It wouldn't be possible without him.
