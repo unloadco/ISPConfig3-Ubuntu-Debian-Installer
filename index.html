@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="ISPConfig 3 Ubuntu/Debian Installer : An Automated and Easy to use ISPConfig 3 Installer for Ubuntu / Debian.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>ISPConfig 3 Ubuntu/Debian Installer</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/unloadco/ISPConfig3-Debian-Installer">View on GitHub</a>
+
+          <h1 id="project_title">ISPConfig 3 Ubuntu/Debian Installer</h1>
+          <h2 id="project_tagline">An Automated and Easy to use ISPConfig 3 Installer for Ubuntu / Debian.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/unloadco/ISPConfig3-Debian-Installer/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/unloadco/ISPConfig3-Debian-Installer/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="ispconfig-3-installer-for-ubuntudebian" class="anchor" href="#ispconfig-3-installer-for-ubuntudebian" aria-hidden="true"><span class="octicon octicon-link"></span></a>ISPConfig 3 Installer for Ubuntu/Debian</h1>
+
+<p>This script will install all of the necessary programs and changes that need to be made to get ISPConfig 3 running successfully. It uses the Perfect Server guide from <a href="https://www.howtoforge.com/perfect-server-ubuntu-14.10-with-nginx-bind-dovecot-and-ispconfig-3">Srijan Kishore of HowtoForge</a> as the
+guide. If you would like, you can manually install all of the things needed using the guides that he has provided. I am just trying to streamline the process. </p>
+
+<p>There are some things to note.</p>
+
+<ol>
+<li>I edited your fstab for the Quota installation. I only do this when you select to install Quota. This will not work on OpenVZ containers.</li>
+<li>I make no guarantees that this will work for you. It should, but I am not responsible for anything that happens to your system. It should be installed on a clean install. If you choose
+not to follow these directions, you are responsible for the damage that you have done.</li>
+</ol>
+
+<h2>
+<a id="installation-instructions" class="anchor" href="#installation-instructions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation Instructions:</h2>
+
+<ol>
+<li>
+<p>Run this command:</p>
+
+<div class="highlight highlight-bash"><pre><span class="pl-s3">cd</span> /tmp<span class="pl-k">;</span> wget --no-check-certificate -O ISPConfig3.tgz https://github.com/unloadco/ISPConfig3-Debian-Installer/tarball/master<span class="pl-k">;</span> tar zxvf ISPConfig3.tgz<span class="pl-k">;</span> <span class="pl-s3">cd</span> <span class="pl-k">*</span>Installer<span class="pl-k">*</span><span class="pl-k">;</span> bash install.sh</pre></div>
+</li>
+<li><p>Answer the onscreen prompts. The script stops so that you can see the appropriate answers.</p></li>
+<li>Enjoy the completed installation.</li>
+</ol>
+
+<h2>
+<a id="extra-installation-instructions" class="anchor" href="#extra-installation-instructions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Extra Installation Instructions:</h2>
+
+<ol>
+<li>Please make sure that you have set the PHP Timezone in the appropriate files.</li>
+<li>
+<p>Run this command:</p>
+
+<div class="highlight highlight-bash"><pre><span class="pl-s3">cd</span> /tmp<span class="pl-k">;</span> wget --no-check-certificate -O ISPConfig3.tgz https://github.com/unloadco/ISPConfig3-Debian-Installer/tarball/master<span class="pl-k">;</span> tar zxvf ISPConfig3.tgz<span class="pl-k">;</span> <span class="pl-s3">cd</span> <span class="pl-k">*</span>Installer<span class="pl-k">*</span><span class="pl-k">;</span> bash install.sh</pre></div>
+</li>
+<li>Answer the onscreen prompts.</li>
+<li>Enjoy the completed installation. </li>
+</ol>
+
+<h2>
+<a id="to-do" class="anchor" href="#to-do" aria-hidden="true"><span class="octicon octicon-link"></span></a>TO DO</h2>
+
+<p>See what other options I can add. Please feel free to submit an issue for any ideas that you have.</p>
+
+<h2>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h2>
+
+<p>Special thanks to <a href="https://github.com/dclardy64">@dclardy64</a> for making <a href="https://github.com/dclardy64/ISPConfig-3-Debian-Installer/">this great script</a>. It wouldn't be possible without him.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">ISPConfig 3 Ubuntu/Debian Installer maintained by <a href="https://github.com/unloadco">unloadco</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
