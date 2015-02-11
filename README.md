@@ -1,7 +1,7 @@
 ISPConfig 3 Installer
 =====================
 
-This script will install all of the necessary programs and changes that need to be made to get ISPConfig 3 running successfully. It uses the Perfect Server guide from Srijan Kishore of [HowtoForge](https://www.howtoforge.com/perfect-server-ubuntu-14.10-with-nginx-bind-dovecot-and-ispconfig-3) as the
+This script will install all of the necessary programs and changes that need to be made to get ISPConfig 3 running successfully. It uses the Perfect Server guide from [Srijan Kishore of HowtoForge](https://www.howtoforge.com/perfect-server-ubuntu-14.10-with-nginx-bind-dovecot-and-ispconfig-3) as the
 guide. If you would like, you can manually install all of the things needed using the guides that he has provided. I am just trying to streamline the process. 
 
 There are some things to note.
@@ -45,4 +45,4 @@ See what other options I can add. Please feel free to submit an issue for any id
 Credits
 -------
 
-Special thanks to @dclardy64 for making this great script. It wouldn't be possible without him.
+Special thanks to [@dclardy64](https://github.com/dclardy64) for making [this great script](https://github.com/dclardy64/ISPConfig-3-Debian-Installer/). It wouldn't be possible without him.
