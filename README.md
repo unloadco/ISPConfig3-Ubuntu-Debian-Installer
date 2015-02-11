@@ -1,7 +1,7 @@
 ISPConfig 3 Installer
 =====================
 
-This script will install all of the necessary programs and changes that need to be made to get ISPConfig running successfully. It uses the Perfect Server guide from Falko Timme as the
+This script will install all of the necessary programs and changes that need to be made to get ISPConfig 3 running successfully. It uses the Perfect Server guide from Srijan Kishore of [HowtoForge](https://www.howtoforge.com/perfect-server-ubuntu-14.10-with-nginx-bind-dovecot-and-ispconfig-3) as the
 guide. If you would like, you can manually install all of the things needed using the guides that he has provided. I am just trying to streamline the process. 
 
 There are some things to note.
